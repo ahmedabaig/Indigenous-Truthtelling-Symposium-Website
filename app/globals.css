@@ -13,13 +13,20 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --color-green-300: #7B9F49;
+  --color-pink-300: #F37E6A;
+  --color-black-200: #232432;
+  --color-yellow-300: #F1BE4B;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #30313d;
     --foreground: #ededed;
-    --creme: #EBDFCB;
+    --color-green-300: #7B9F49;
+    --color-pink-300: #F37E6A;
+    --color-black-200: #232432;
+    --color-yellow-300: #F1BE4B;
+    --color-red-300: #F1BE4B;
   }
 }
 
