@@ -1,9 +1,9 @@
 import Image from "next/image";
-import LabeledImage from "./components/labeled-image";
-import Divider from "./components/divider";
-import RefaatAlareer from "./components/refaat-alareer";
-import WeshoyotAlvitre from "./components/weshoyot-alvitre";
-import MonaKadah from "./components/mona-kadah";
+import LabeledImage from "../components/labeled-image";
+import Divider from "../components/divider";
+import RefaatAlareer from "../components/refaat-alareer";
+import WeshoyotAlvitre from "../components/weshoyot-alvitre";
+import MonaKadah from "../components/mona-kadah";
 
 export default function Home() {
   return (
