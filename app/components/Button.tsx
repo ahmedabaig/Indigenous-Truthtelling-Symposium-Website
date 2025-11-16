@@ -5,8 +5,10 @@ type ButtonProps = {
 
 const Button: React.FC<ButtonProps> = ({ borderColor, text}) => {
   return (
-    <div className={`flex items-center justify-center p-4 border-4 rounded-4xl sm:rounded-full w-1/3 sm:w-1/8 text-xl sm:text-2xl ${borderColor} bg-black-200`}>
-        {text}
+    <div className ="flex w-1/2 h-screen items-center justify-center"> 
+        <div className={`inline-block text-center p-4 border-4 rounded-full w-sm:w-1/8 text-xl sm:text-2xl ${borderColor} bg-black-200`}>
+            {text}
+        </div>
     </div>
   );
 };
