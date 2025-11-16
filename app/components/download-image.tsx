@@ -1,6 +1,7 @@
 "use client";
 
 import { JSX } from "react";
+import Button from "./Button";
 
 interface DownloadImageProps {
   children: JSX.Element;
@@ -23,9 +24,9 @@ function DownloadImage({ children, downloadLink, fileName }: DownloadImageProps)
   }
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center relative">
       {children}
-      <button onClick={handleClick}>Download</button>
+      <Button className="-translate-y-1/2" onClick={handleClick} borderColor="border-red-300" text="Download"></Button>
     </div>
   );
 }
