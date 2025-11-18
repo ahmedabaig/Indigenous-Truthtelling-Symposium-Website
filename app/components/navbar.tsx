@@ -15,7 +15,7 @@ function NavBar() {
             width={32}
             height={32}
           />
-          <h1 className="text-md md:text-xl">Indigenous Truth Telling Symposium</h1>
+          <h1 className="text-base md:text-xl">Indigenous Truth Telling Symposium</h1>
         </Link>
         <div className="flex items-center">
           <button className="cursor-pointer">
