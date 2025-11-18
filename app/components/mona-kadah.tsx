@@ -12,14 +12,13 @@ function MonaKadah() {
       <div className="flex flex-col md:flex-row md:mb-20 md:items-center before:flex-1 after:flex-1 mb-10">
         <div className="relative inline-block">
           <div className="hidden md:block absolute inset-0 rounded-4xl -translate-x-4 translate-y-4 bg-yellow-300" />
-          <div className="relative rounded-4xl overflow-hidden bg-white">
-            <Image
-              src="/mona.png"
-              alt="Mona Kadah"
-              width={381.75}
-              height={444.75}
-            />
-          </div>
+          <Image
+            src="/mona.png"
+            alt="Mona Kadah"
+            width={381.75}
+            height={444.75}
+            className="relative rounded-4xl overflow-hidden bg-white"
+          />
         </div>
         <div className="flex flex-col justify-between md:ml-15 mt-5 md:mt-0 ">
           <div className="text-yellow-300 text-3xl/loose md:text-7xl/loose italic text-center md:text-left">

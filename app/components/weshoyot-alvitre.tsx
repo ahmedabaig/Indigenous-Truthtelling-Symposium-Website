@@ -12,27 +12,35 @@ function WeshoyotAlvitre() {
   return (
     <div className="flex flex-col mx-10 md:mx-30 md:mt-20 mt-10">
       <div className="flex flex-col md:flex-row md:mb-20 md:items-center before:flex-1 after:flex-1 mb-10">
-        <div className="hidden md:block text-red-300 text-3xl/loose md:text-7xl/loose italic text-center md:text-right mb-5  md:mr-15">
-          <p>Weshoyot</p>
-          <p>Alvitre</p>
+        <div className="hidden md:flex flex-col justify-between md:mr-15 mt-5 md:mt-0 ">
+          <div className="text-pink-300 text-3xl/loose md:text-7xl/loose italic text-center md:text-right">
+            <p>Weshoyot</p>
+            <p>Alvitre</p>
+          </div>
+          <div className="text-creme text-2xl/loose md:text-right text-center">
+            <a className="underline italic" href="https://www.weshoyot.com" target="_blank" rel="noopener noreferrer">weshoyot.com</a>
+          </div>
         </div>
         <div className="relative inline-block">
           <div className="hidden md:block absolute inset-0 rounded-4xl translate-x-4 translate-y-4 bg-red-300" />
-          <div className="relative rounded-4xl overflow-hidden bg-white">
-            <Image
-              src="/weshoyot.png"
-              alt="Weshoyot Alvitre"
-              width={381.75}
-              height={444.75}
-            />
-          </div>
+          <Image
+            src="/weshoyot.png"
+            alt="Weshoyot Alvitre"
+            width={381.75}
+            height={444.75}
+            className="relative rounded-4xl overflow-hidden bg-white"
+          />
         </div>
-        <div className="md:hidden text-red-300 text-3xl/loose md:text-7xl/loose italic text-center md:text-right mt-5  md:mr-15">
-          <p>Weshoyot</p>
-          <p>Alvitre</p>
+
+        <div className="md:hidden text-pink-300 text-3xl/loose md:text-7xl/loose italic text-center md:text-right mt-5 md:mr-15">
+          <div>
+            <p>Weshoyot</p>
+            <p>Alvitre</p>
+          </div>
+          <a className="text-creme underline italic text-2xl/loose" href="https://www.weshoyot.com" target="_blank" rel="noopener noreferrer">weshoyot.com</a>
         </div>
       </div>
-      <div className="mb-10 md:mb-20">
+      <div className="mb-10">
         <Paragraphs paragraphs={paragraphs} />
       </div>
     </div >
