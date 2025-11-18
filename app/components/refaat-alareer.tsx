@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Paragraphs from "./paragraphs";
 
 function RefaatAlareer() {
@@ -12,9 +13,19 @@ function RefaatAlareer() {
   ];
 
   return (
-    <div className="mb-30">
-      <p className="my-10 mx-10 md:mx-30 md:mb-20 text-green-300 italic text-4xl/relaxed md:text-7xl/relaxed">Refaat Alareer: The Legacy of Gaza&apos;s Grand Storytellers</p>
-      <div className="mx-10 md:mx-30 mb-10 md:mb-20">
+    <div className="flex flex-col mx-10 md:mx-30 md:mt-20 mt-10 items-center mb-20">
+      <h3 className="text-green-300 italic text-4xl/relaxed md:text-7xl/relaxed mb-10">Refaat Alareer: The Legacy of Gaza&apos;s Grand Storytellers</h3>
+      <div className="relative mb-20">
+        <Image
+          src="/image1.png"
+          alt="Refaat Alareer"
+          width={1594}
+          height={1074}
+          className="relative rounded-4xl overflow-hidden md:w-[977] md:h-[658] object-cover z-1"
+        />
+        <div className="hidden md:block absolute inset-0 rounded-4xl -translate-x-4 translate-y-4 bg-green-300" />
+      </div>
+      <div className="mb-10 md:mb-20 mb:mt-20">
         <Paragraphs paragraphs={refaatParagraphs} />
       </div>
       <div className="flex flex-col font-bold italic text-green-300 text-center text-2xl/loose mb-10 md:mb-20">
@@ -22,7 +33,7 @@ function RefaatAlareer() {
         <p>You must live</p>
         <p>You must live</p>
       </div>
-      <p className="italic mx-15 text-2xl/loose text-white">A student of Refaat and the editor of If I Must Die: Poetry and Prose</p>
+      <p className="italic text-2xl/loose text-white">A student of Refaat and the editor of If I Must Die: Poetry and Prose</p>
     </div>
   );
 }
