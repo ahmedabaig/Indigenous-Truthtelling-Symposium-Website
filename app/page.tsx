@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <main className="text-center flex flex-col min-h-screen bg-background items-center">
-      <p className="m-15 mt-30 pt-12 md:m-30 mt:mt-30 md:mt-24 md:pt-24 text-3xl/relaxed text-creme">An educational art project, providing resources to students, activists, educators and community. Promoting resilience, resistance, and support for indigenous communities.</p>
+      <p className="m-10 mt-30 pt-12 md:m-30 mt:mt-30 md:mt-24 md:pt-24 text-3xl/relaxed text-creme">An educational art project, providing resources to students, activists, educators and community. Promoting resilience, resistance, and support for indigenous communities.</p>
       <div className="flex w-full justify-around mb-20">
         <LabeledImage caption="Poppies in Palestine Series by Monah Kadah">
           <Image
@@ -36,7 +36,7 @@ export default function Home() {
           />
         </LabeledImage>
       </div>
-      <h2 className="text-green-300 text-5xl/relaxed italic mb-10">About the Indigenous Truthtelling Project</h2>
+      <h2 className="text-green-300 text-3xl/relaxed md:text-6xl/relaxed italic m-10 md:mx-30">About the Indigenous Truthtelling Project</h2>
       <Divider color1="#7B9F49"></Divider>
       <div className="my-12 md:my-24 mx-10 md:mx-30">
         <Paragraphs paragraphs={paragraphs}></Paragraphs>
