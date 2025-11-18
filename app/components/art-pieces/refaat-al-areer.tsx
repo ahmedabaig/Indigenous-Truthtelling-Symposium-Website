@@ -8,9 +8,9 @@ function RefaatAlAreer() {
   ];
   return (
     <ArtPieces name={"Refaat Al Areer"} paragraphs={paragraphs}>
-      <DownloadImage fileName="MainBefore.jpg" downloadLink="https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/396e9/MainBefore.jpg">
+      <DownloadImage fileName="refaat1.jpg" downloadPath="/raw-refaat1.jpg">
         <Image
-          src="/image1.png"
+          src="/refaat/refaat1.png"
           alt="Refaat Al Areer"
           width={1256}
           height={736}
