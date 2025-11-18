@@ -10,14 +10,14 @@ function WeshoyotAlvitre() {
   ]
 
   return (
-    <div className="flex flex-col mx-30">
-      <div className="flex mb-30 items-center before:flex-1 after:flex-1 gap-15">
-        <div className="text-red-300 text-7xl/loose italic text-right">
+    <div className="flex flex-col mx-10 md:mx-30">
+      <div className="flex flex-col md:flex-row md:mb-20 md:items-center before:flex-1 after:flex-1 mb-10">
+        <div className="hidden md:block text-red-300 text-3xl/loose md:text-7xl/loose italic text-center md:text-right mb-5  md:mr-15">
           <p>Weshoyot</p>
           <p>Alvitre</p>
         </div>
         <div className="relative inline-block">
-          <div className="absolute inset-0 rounded-4xl translate-x-4 translate-y-4 bg-red-300" />
+          <div className="hidden md:block absolute inset-0 rounded-4xl translate-x-4 translate-y-4 bg-red-300" />
           <div className="relative rounded-4xl overflow-hidden bg-white">
             <Image
               src="/weshoyot.png"
@@ -26,6 +26,10 @@ function WeshoyotAlvitre() {
               height={444.75}
             />
           </div>
+        </div>
+        <div className="md:hidden text-red-300 text-3xl/loose md:text-7xl/loose italic text-center md:text-right mt-5  md:mr-15">
+          <p>Weshoyot</p>
+          <p>Alvitre</p>
         </div>
       </div>
       <div className="mb-20">

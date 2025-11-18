@@ -13,16 +13,16 @@ function RefaatAlareer() {
 
   return (
     <div className="mb-30">
-      <p className="mx-30 mb-30 text-green-300 italic text-7xl/relaxed">Refaat Alareer: The Legacy of Gaza&apos;s Grand Storytellers</p>
-      <div className="mx-30 mb-20">
+      <p className="mb-15 mx-10 md:mx-30 md:mb-20 text-green-300 italic text-4xl/relaxed md:text-7xl/relaxed">Refaat Alareer: The Legacy of Gaza&apos;s Grand Storytellers</p>
+      <div className="mx-10 md:mx-30 mb-10 md:mb-20">
         <Paragraphs paragraphs={refaatParagraphs} />
       </div>
-      <div className="flex flex-col font-bold italic text-green-300 text-center text-2xl/loose mb-20">
+      <div className="flex flex-col font-bold italic text-green-300 text-center text-2xl/loose mb-10 md:mb-20">
         <p>If I must die,</p>
         <p>You must live</p>
         <p>You must live</p>
       </div>
-      <p className="italic text-2xl/loose text-white">A student of Refaat and the editor of If I Must Die: Poetry and Prose</p>
+      <p className="italic mx-15 text-2xl/loose text-white">A student of Refaat and the editor of If I Must Die: Poetry and Prose</p>
     </div>
   );
 }

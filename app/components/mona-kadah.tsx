@@ -8,10 +8,10 @@ function MonaKadah() {
   ];
 
   return (
-    <div className="flex flex-col mx-30">
-      <div className="flex-1 flex my-30 items-center before:flex-1 after:flex-1 gap-15">
+    <div className="flex flex-col mx-10 md:mx-30 md:mt-20 mt-15">
+      <div className="flex flex-col md:flex-row md:mb-20 md:items-center before:flex-1 after:flex-1 mb-10">
         <div className="relative inline-block">
-          <div className="absolute inset-0 rounded-4xl -translate-x-4 translate-y-4 bg-red-300" />
+          <div className="hidden md:block absolute inset-0 rounded-4xl -translate-x-4 translate-y-4 bg-yellow-300" />
           <div className="relative rounded-4xl overflow-hidden bg-white">
             <Image
               src="/mona.png"
@@ -21,18 +21,18 @@ function MonaKadah() {
             />
           </div>
         </div>
-        <div className="flex flex-col justify-between">
-          <div className="text-red-300 text-7xl/loose italic text-left">
+        <div className="flex flex-col justify-between md:ml-15 mt-5 md:mt-0 ">
+          <div className="text-yellow-300 text-3xl/loose md:text-7xl/loose italic text-center md:text-left">
             <p>Mona</p>
             <p>Kadah</p>
           </div>
-          <div className="text-creme text-2xl/loose text-left">
+          <div className="text-creme text-2xl/loose md:text-left text-center">
             <a className="underline italic" href="https://monakadahart.com" target="_blank" rel="noopener noreferrer">monakadahart.com</a>
             <p>@monakadahart</p>
           </div>
         </div>
       </div>
-      <div className="mb-20">
+      <div className="md:mb-20">
         <Paragraphs paragraphs={paragraphs} />
       </div>
     </div >
