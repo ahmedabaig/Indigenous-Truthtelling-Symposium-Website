@@ -14,25 +14,25 @@ export default function Home() {
   ];
 
   return (
-    <main className="text-center flex flex-col min-h-screen bg-background items-center">
-      <p className="m-10 mt-20 pt-10 md:m-30 mt:mt-30 md:mt-24 md:pt-24 text-2xl/relaxed md:text-4xl/relaxed text-creme">An educational art project, providing resources to students, activists, educators and community. Promoting resilience, resistance, and support for indigenous communities.</p>
-      <div className="flex w-full justify-around mb-10 md:mb-20">
-        <LabeledImage caption="Poppies in Palestine Series by Monah Kadah">
-          <Image
-            src="/image3.png"
-            alt="Poppies in Palestine Series by Monah Kadah"
-            width={727}
-            height={549}
-            className="w-[727px] h-[549px] object-cover" // Image maintains same aspect ratio.
-          />
-        </LabeledImage>
-        <LabeledImage caption="Blossoming Under Seige by Mona Kadah">
+    <main className="text-center flex flex-col min-h-screen bg-background items-center pt-32 md:pt-36">
+        <LabeledImage caption="Blooming Under Siege by Mona Kadah">
           <Image
             src="/image2.webp"
-            alt="Blossoming Under Seige by Mona Kadah"
+            alt="Blooming Under Siege by Mona Kadah"
             width={727}
             height={549}
-            className="w-[727px] h-[549px] object-cover"
+          />
+        </LabeledImage>
+        <div className="mx-10 md:mx-15 my-15 md:my-20">
+          <h2 className="text-yellow-300 italic text-4xl/relaxed mb-10 md:text-7xl/relaxed">Indigenous Truthtelling Project</h2>
+          <p className="text-creme text-xl/relaxed font-semibold">Grounded in a commitment to Indigenous knowledge keeping, our project brings together movements in solidarity against colonial oppression, ethnic cleansing, scholasticide, and genocide. Engaging both virtual and physical landscapes, our project honors and memorializes Palestinian and Indigenous knowledge keepers – journalists, educators, writers, culture workers, and poets – those resisting and martyred in their Indigenous homelands.</p>
+        </div>
+        <LabeledImage caption="Poppies in Palestine, a series, by Monah Kadah">
+          <Image
+            src="/image4.png"
+            alt="Poppies in Palestine, a series, by Monah Kadah"
+            width={722}
+            height={604}
           />
         </LabeledImage>
       </div>
