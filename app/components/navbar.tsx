@@ -6,7 +6,7 @@ import Divider from "./divider";
 function NavBar() {
   return (
     <div className="w-screen fixed top:0 z-10">
-      <nav className="py-6 px-6 flex justify-between items-center bg-black-200 text-white">
+      <nav className="p-4 md:p-6 flex justify-between items-center bg-black-200 text-white">
         <Link href="/" className="flex gap-4">
           <Image
             className="dark:invert"
@@ -15,7 +15,7 @@ function NavBar() {
             width={32}
             height={32}
           />
-          <h1 className="text-xl">Indigenous Truth Telling Symposium</h1>
+          <h1 className="text-md md:text-xl">Indigenous Truth Telling Symposium</h1>
         </Link>
         <div className="flex items-center">
           <button className="cursor-pointer">
