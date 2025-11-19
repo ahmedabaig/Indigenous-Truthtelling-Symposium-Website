@@ -12,8 +12,8 @@ function RefaatAlAreer() {
         <Image
           src="/refaat/refaat1.png"
           alt="Refaat Al Areer"
-          width={1256}
-          height={736}
+          width={1262}
+          height={841}
         />
       </DownloadImage>
     </ArtPieces>
