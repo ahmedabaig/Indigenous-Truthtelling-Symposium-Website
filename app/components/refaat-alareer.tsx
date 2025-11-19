@@ -31,7 +31,7 @@ function RefaatAlareer() {
       <div className="flex flex-col font-bold italic text-green-300 text-center text-2xl/loose mb-10 md:mb-20">
         <p>If I must die,</p>
         <p>You must live</p>
-        <p>You must live</p>
+        <p>To tell my story</p>
       </div>
       <p className="italic text-2xl/loose text-white">A student of Refaat and the editor of If I Must Die: Poetry and Prose</p>
     </div>
