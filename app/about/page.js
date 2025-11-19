@@ -1,5 +1,5 @@
 import AboutBox from "../components/AboutBox";
-import MoreCard from "../components/MoreCard";
+import TeamBox from "../components/TeamBox";
 
 const Page = () => {
 
@@ -14,16 +14,7 @@ const Page = () => {
         <div className = "text-white text-6xl italic sm:text-8xl ">
             Our Team 
         </div>
-        <MoreCard 
-            borderColor= "border-yellow-300" 
-            names={[
-                "Shaheen Nassar",
-                "Mark Minch De Leon",
-                "Rana Sharif",
-                "Setsu Shigematsu",
-                "Jenna Wilson"
-            ]}
-        />
+        <TeamBox/>
     </div>
   );
  
