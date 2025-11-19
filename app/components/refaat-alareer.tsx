@@ -13,7 +13,7 @@ function RefaatAlareer() {
   ];
 
   return (
-    <div className="flex flex-col mx-10 md:mx-30 md:mt-20 mt-10 items-center mb-20">
+    <div id="refaat-alareer" className="flex flex-col mx-10 md:mx-30 md:mt-20 mt-10 items-center mb-20">
       <h3 className="text-green-300 italic text-4xl/relaxed md:text-7xl/relaxed mb-10">Refaat Alareer: The Legacy of Gaza&apos;s Grand Storytellers</h3>
       <div className="relative mb-20">
         <Image

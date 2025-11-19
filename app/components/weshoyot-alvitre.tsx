@@ -10,7 +10,7 @@ function WeshoyotAlvitre() {
   ]
 
   return (
-    <div className="flex flex-col mx-10 md:mx-30 md:mt-20 mt-10">
+    <div id="weshoyot-alvitre" className="flex flex-col mx-10 md:mx-30 md:mt-20 mt-10">
       <div className="flex flex-col md:flex-row md:mb-20 md:items-center before:flex-1 after:flex-1 mb-10">
         <div className="hidden md:flex flex-col justify-between md:mr-15 mt-5 md:mt-0 ">
           <div className="text-pink-300 text-3xl/loose md:text-7xl/loose italic text-center md:text-right">

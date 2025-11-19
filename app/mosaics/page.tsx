@@ -15,7 +15,7 @@ function EduPieces() {
           <span className="font-extrabold italic">Phase ll Coming in Summer 2026: </span><br></br>
           Interactive Mosaic Tiles - come learn and honor the memory of each individual martyr who was lost during the genocide. Glory to our martyrs.
         </p>
-        <div className="mb-16 md:mb-24">
+        <div id="how-to" className="mb-16 md:mb-24">
           <h2 className="text-2xl/relaxed md:text-6xl/relaxed italic text-yellow-300 text-center mb-6">How to use the Indigenous Art for Education Pieces?</h2>
           <p className="text-creme md:text-2xl/relaxed text-center">In the history of indigenous liberation solidarity movements, art has been a powerful tool of creative expression and of resistance. Students, educators, and people of conscience have used art as a means of challenging colonial domination. Here are some suggestions on how to use these pieces:</p>
         </div>

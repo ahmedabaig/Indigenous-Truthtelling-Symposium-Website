@@ -14,8 +14,8 @@ function NavBar() {
       <nav className="p-4 md:p-6 flex justify-between items-center bg-black-200 text-white">
         <Link href="/" className="flex gap-4">
           <Image
-            className="dark:invert"
-            src="/vercel.svg"
+            className="rounded-full aspect-square w-8 h-8"
+            src="/image4.png"
             alt="Vercel logomark"
             width={32}
             height={32}

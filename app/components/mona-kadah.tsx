@@ -8,7 +8,7 @@ function MonaKadah() {
   ];
 
   return (
-    <div className="flex flex-col mx-10 md:mx-30 md:mt-30 mt-10">
+    <div id="mona-kadah" className="flex flex-col mx-10 md:mx-30 md:mt-30 mt-10">
       <div className="flex flex-col md:flex-row md:mb-20 md:items-center before:flex-1 after:flex-1 mb-10">
         <div className="relative inline-block">
           <div className="hidden md:block absolute inset-0 rounded-4xl -translate-x-4 translate-y-4 bg-yellow-300" />
