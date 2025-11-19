@@ -4,7 +4,7 @@ import { SubmitHandler, useForm } from 'react-hook-form';
 import Button from '../components/Button';
 import styles from './form.module.css'
 
-interface ContactUsPayload {
+export interface ContactUsPayload {
   subject: string;
   emailAddress: string;
   name: string;

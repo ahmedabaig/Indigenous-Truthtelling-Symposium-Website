@@ -1,3 +1,4 @@
+import { ContactUsPayload } from "@/app/contact-us/page";
 import nodemailer from "nodemailer";
 
 const transporter = nodemailer.createTransport({
@@ -11,11 +12,11 @@ const transporter = nodemailer.createTransport({
 
 export async function POST(request: Request) {
   try {
-    const formData = await request.formData()
-    const subject = formData.get('subject')?.toString()
-    const email = formData.get('email')?.toString()
-    const name = formData.get('name')?.toString()
-    const message = formData.get('message')?.toString()
+    const data: ContactUsPayload = await request.json()
+    const subject = data.subject
+    const email = data.emailAddress
+    const name = data.name
+    const message = data.message
 
     const info = await transporter.sendMail({
       from: `${name} ${email}`,
