@@ -1,23 +1,16 @@
 import Link from "next/link";
+import GetInvolved from "../components/GetInvolved";
 
 const Page = () => {
 
   return (
-    <div className="flex flex-col w-screen h-screen items-center justify-center pt-112 sm:pt-122 pb-112 gap-14">
-        <div className = "text-yellow-300 text-4xl italic sm:text-8xl ">
-            What You Can Do
+    <div className="flex flex-col w-screen items-center justify-center pb-20 sm:pb-40 gap-6 sm:gap-14">
+        <div className = "text-yellow-300 text-2xl text-center italic sm:text-4xl ">
+            Get Involved, Get Activated, Get Informed: 
         </div>
-        <div className = "flex flex-col w-4/6 pb-24 pt-24 gap-8 items-center justify-center bg-black-200 rounded-2xl">
-            <Link href="https://bdsmovement.net/" className="text-pink-300 text-4xl italic sm:text-6xl ">
-                BDS
-            </Link>
-            <Link href="https://www.boycat.io/" className="text-green-300 text-4xl italic sm:text-6xl ">
-                Boycat App
-            </Link>
-            <Link href="https://palestinianfeministcollective.org/" className=" text-yellow-300 text-center text-4xl italic sm:text-6xl ">
-                Palestinian Feminist Collective
-            </Link>
-        </div>
+        <p className = "text-xl sm:text-2xl text-center w-2/3">We believe in the power of collective power. While the list below is by no means exhaustive, we hope it will inspire you to get involved, get activated, and get informed.</p>
+        <GetInvolved/>
+
     </div>
   );
  
