@@ -1,16 +1,6 @@
 import { ContactUsPayload } from "@/app/contact-us/page";
-import nodemailer from "nodemailer";
 
 export const runtime = 'edge';
-
-const transporter = nodemailer.createTransport({
-  host: 'smtp.ethereal.email',
-  port: 587,
-  auth: {
-    user: process.env.SMTP_USER,
-    pass: process.env.SMTP_PASS
-  }
-});
 
 export async function POST(request: Request) {
   try {
@@ -20,16 +10,28 @@ export async function POST(request: Request) {
     const name = data.name
     const message = data.message
 
-    const info = await transporter.sendMail({
-      from: `${name} ${email}`,
-      to: "bar@example.com, baz@example.com",
-      subject: subject,
-      text: `${message}`,
-      html: `<p>${message}</>`,
+    const response = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: {
+        'Authorization': `Bearer ${process.env.API_KEY}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        from: "message@contact.indigenoustruthtelling.net",
+        to: 'johwuy@gmail.com',
+        subject: subject,
+        html: `<p>From: ${name} (${email}):<br/> ${message}</>`
+      })
     });
 
+    if (!response.ok) {
+      const errorText = await response.text();
+      console.error('Error:', response.status, errorText);
+      return;
+    }
+
     return new Response(
-      JSON.stringify({ success: true, messageId: info.messageId }),
+      JSON.stringify({ success: true }),
       {
         status: 200,
         headers: { "Content-Type": "application/json" },
