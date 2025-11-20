@@ -15,7 +15,7 @@ const Page = () => {
                 Boycat App
             </Link>
             <Link href="https://palestinianfeministcollective.org/" className=" text-yellow-300 text-center text-4xl italic sm:text-6xl ">
-                Palestinian Feminine Collective
+                Palestinian Feminist Collective
             </Link>
         </div>
     </div>
