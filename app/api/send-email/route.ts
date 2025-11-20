@@ -1,6 +1,8 @@
 import { ContactUsPayload } from "@/app/contact-us/page";
 import nodemailer from "nodemailer";
 
+export const runtime = 'edge';
+
 const transporter = nodemailer.createTransport({
   host: 'smtp.ethereal.email',
   port: 587,
