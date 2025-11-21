@@ -15,7 +15,7 @@ const TeamBox = () => {
         }`}
         >
             <div
-                className="italic text-center p-4 border-4 sm:border-b-2 rounded-full w-3/4 text-xl sm:text-2xl border-yellow-300 bg-black-200 cursor-pointer"
+                className="italic text-center p-4 border-4 sm:border-b-2 rounded-full w-3/4 text-xl sm:text-2xl border-yellow-300 bg-black-200 cursor-pointer text-white"
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
             >
                 {member.name}
@@ -30,7 +30,7 @@ const TeamBox = () => {
                 sm:max-h-full sm:opacity-100
                 `}
             >
-                <p>{member.description}</p>
+                <p className = "text-white">{member.description}</p>
             </div>
         </div>
       ))}
