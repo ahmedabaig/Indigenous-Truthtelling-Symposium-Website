@@ -12,6 +12,7 @@ function Footer() {
         className="w-full h-auto opacity-34"
       />
       <Divider color1="#F37E6A" color2="#F1BE4B"></Divider>
+      <div className="h-24 bg-black-200"></div>
     </footer>
   );
 }
