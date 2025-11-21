@@ -36,7 +36,7 @@ function ContactUs() {
   }
 
   return (
-    <div className="flex flex-col md:mx-30 pt-20 sm:pt-24">
+    <div className="flex flex-col md:mx-30">
       <h3 className="my-12 italic text-yellow-300 text-3xl/relaxed md:text-5xl/relaxed text-center">Contact the Indigenous Truthtelling Project</h3>
       <div className='relative mb-24'>
         <div className='hidden md:block absolute inset-0 h-full w-full bg-[#E9C060] -translate-x-4 translate-y-4 rounded-4xl'></div>
