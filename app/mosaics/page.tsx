@@ -8,7 +8,7 @@ function EduPieces() {
     <div className="mb-32">
       <div className="flex flex-col px-10 md:px-24">
         <h2 className="mb-24 md:mb-12 text-pink-300 italic text-4xl/relaxed md:text-7xl/relaxed text-center">Mosaics to Memorialize Our Martyrs</h2>
-        <BisanOwda />
+        {/* <BisanOwda /> */}
         <RefaatAlAreer />
         <ShireenAbuAkleh />
         <p className="text-center text-pink-300 c mb-24 md:text-2xl/relaxed">
