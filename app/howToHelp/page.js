@@ -1,4 +1,3 @@
-import Link from "next/link";
 import GetInvolved from "../components/GetInvolved";
 
 const Page = () => {

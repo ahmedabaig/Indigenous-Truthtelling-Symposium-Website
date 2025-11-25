@@ -48,5 +48,9 @@ export const Pages: Page[] = [
         href: "/contact-us"
 
     },
+    {
+        name: "Indigenous Genocide",
+        href: "/indigenous-genocide"
+    }
 ];
 export default Pages;
