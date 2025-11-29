@@ -7,7 +7,7 @@ function EduPieces() {
   return (
     <div className="mb-32">
       <div className="flex flex-col px-10 md:px-24">
-        <h2 className="mb-24 md:mb-12 text-pink-300 italic text-4xl/relaxed md:text-7xl/relaxed text-center">Mosaics to Memorialize Our Martyrs</h2>
+        <h2 className="mb-24 md:mb-12 text-pink-300 italic text-4xl/relaxed md:text-6xl/relaxed text-center">Mosaics to Memorialize Our Heros and Martyrs</h2>
         <BisanOwda />
         <RefaatAlAreer />
         <ShireenAbuAkleh />
